@@ -9,23 +9,35 @@
 /* Begin PBXBuildFile section */
 		E315C84B29D10A5A00F091BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315C84A29D10A5A00F091BA /* AppDelegate.swift */; };
 		E315C84D29D10A5A00F091BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315C84C29D10A5A00F091BA /* SceneDelegate.swift */; };
-		E315C84F29D10A5A00F091BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315C84E29D10A5A00F091BA /* ViewController.swift */; };
+		E315C84F29D10A5A00F091BA /* RecognitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E315C84E29D10A5A00F091BA /* RecognitionViewController.swift */; };
 		E315C85229D10A5A00F091BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E315C85029D10A5A00F091BA /* Main.storyboard */; };
 		E315C85529D10A5A00F091BA /* MAPD724_W2023_ICE8.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E315C85329D10A5A00F091BA /* MAPD724_W2023_ICE8.xcdatamodeld */; };
 		E315C85729D10A5B00F091BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E315C85629D10A5B00F091BA /* Assets.xcassets */; };
 		E315C85A29D10A5B00F091BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E315C85829D10A5B00F091BA /* LaunchScreen.storyboard */; };
+		E315C86229D1128600F091BA /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E315C86129D1128600F091BA /* MobileNetV2.mlmodel */; };
+		E315C86429D1129300F091BA /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E315C86329D1129200F091BA /* SqueezeNet.mlmodel */; };
+		E315C86929D112C100F091BA /* bird.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E315C86529D112C100F091BA /* bird.jpeg */; };
+		E315C86A29D112C100F091BA /* car.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E315C86629D112C100F091BA /* car.jpeg */; };
+		E315C86B29D112C100F091BA /* dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E315C86729D112C100F091BA /* dog.jpeg */; };
+		E315C86C29D112C100F091BA /* kitten.png in Resources */ = {isa = PBXBuildFile; fileRef = E315C86829D112C100F091BA /* kitten.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E315C84729D10A5A00F091BA /* MAPD724-W2023-ICE8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAPD724-W2023-ICE8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E315C84A29D10A5A00F091BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E315C84C29D10A5A00F091BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E315C84E29D10A5A00F091BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E315C84E29D10A5A00F091BA /* RecognitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionViewController.swift; sourceTree = "<group>"; };
 		E315C85129D10A5A00F091BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E315C85429D10A5A00F091BA /* MAPD724_W2023_ICE8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAPD724_W2023_ICE8.xcdatamodel; sourceTree = "<group>"; };
 		E315C85629D10A5B00F091BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E315C85929D10A5B00F091BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E315C85B29D10A5B00F091BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E315C86129D1128600F091BA /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		E315C86329D1129200F091BA /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		E315C86529D112C100F091BA /* bird.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bird.jpeg; sourceTree = "<group>"; };
+		E315C86629D112C100F091BA /* car.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = car.jpeg; sourceTree = "<group>"; };
+		E315C86729D112C100F091BA /* dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpeg; sourceTree = "<group>"; };
+		E315C86829D112C100F091BA /* kitten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitten.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +72,14 @@
 			children = (
 				E315C84A29D10A5A00F091BA /* AppDelegate.swift */,
 				E315C84C29D10A5A00F091BA /* SceneDelegate.swift */,
-				E315C84E29D10A5A00F091BA /* ViewController.swift */,
+				E315C84E29D10A5A00F091BA /* RecognitionViewController.swift */,
+				E315C86129D1128600F091BA /* MobileNetV2.mlmodel */,
+				E315C86329D1129200F091BA /* SqueezeNet.mlmodel */,
 				E315C85029D10A5A00F091BA /* Main.storyboard */,
+				E315C86529D112C100F091BA /* bird.jpeg */,
+				E315C86629D112C100F091BA /* car.jpeg */,
+				E315C86729D112C100F091BA /* dog.jpeg */,
+				E315C86829D112C100F091BA /* kitten.png */,
 				E315C85629D10A5B00F091BA /* Assets.xcassets */,
 				E315C85829D10A5B00F091BA /* LaunchScreen.storyboard */,
 				E315C85B29D10A5B00F091BA /* Info.plist */,
@@ -128,8 +146,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E315C86A29D112C100F091BA /* car.jpeg in Resources */,
+				E315C86C29D112C100F091BA /* kitten.png in Resources */,
 				E315C85A29D10A5B00F091BA /* LaunchScreen.storyboard in Resources */,
+				E315C86B29D112C100F091BA /* dog.jpeg in Resources */,
 				E315C85729D10A5B00F091BA /* Assets.xcassets in Resources */,
+				E315C86929D112C100F091BA /* bird.jpeg in Resources */,
 				E315C85229D10A5A00F091BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,9 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E315C84F29D10A5A00F091BA /* ViewController.swift in Sources */,
+				E315C84F29D10A5A00F091BA /* RecognitionViewController.swift in Sources */,
+				E315C86429D1129300F091BA /* SqueezeNet.mlmodel in Sources */,
 				E315C84B29D10A5A00F091BA /* AppDelegate.swift in Sources */,
 				E315C84D29D10A5A00F091BA /* SceneDelegate.swift in Sources */,
+				E315C86229D1128600F091BA /* MobileNetV2.mlmodel in Sources */,
 				E315C85529D10A5A00F091BA /* MAPD724_W2023_ICE8.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
